@@ -137,6 +137,12 @@ If Vite chooses another free port, open the URL shown in the terminal.
 
 If you run the frontend on a different port, either use one of the allowed ports above or update [main.py](C:\Users\Bikramjit\OneDrive\Documents\New%20project\Smart%20Task%20Board\backend\app\main.py#L8).
 
+## GitHub Pages Deployment
+
+- This repository includes a GitHub Actions workflow at [.github/workflows/deploy-pages.yml](C:\Users\Bikramjit\OneDrive\Documents\New%20project\Smart%20Task%20Board\.github\workflows\deploy-pages.yml) to deploy the frontend to GitHub Pages.
+- GitHub Pages hosts only the static React frontend.
+- The FastAPI backend is not deployable on GitHub Pages and must run on a separate backend host if you want the deployed UI to perform live API actions.
+
 ## Assumptions
 
 - Persistent storage was not required, so tasks live in memory.
